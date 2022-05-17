@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>iframe 연습</title>
+        <meta charset="uft-8">
+        <meta name="author" content="김대각">
+        <meta name="keywords" content="iframe">
+        <meta name="description" content="iframe연습파일 입니다">
+    </head>
+
+    <body>
+        <h1>iframe 태그연습</h1>
+        <p>
+            사실상 동시에 두 개의 페이지를 볼 수 있게 해주는 태그
+        </p>
+        <iframe src="first.html"></iframe>
+        <iframe src="http://nate.com"></iframe>
+        <br/>
+        <iframe srcdoc="Hello World!" width="300px" height="300px"></iframe>
+        <iframe src="https://www.youtube.com/embed/cRLnR4Kot2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="300px" height="300px"></iframe>
+    </body>
+
+    <form action="join_insert.php" method="host">
+
+        <p><b>성명</b></p>
+        <input type="text" name="username"/>
+        <br/>
+
+        <p>id</p>
+        <input type="text" name="userid"/>
+        <br/>
+
+        <p>pw</p>
+        <input type="password" name="userpw"/>
+        <br/>
+
+        <p>성별</p>
+        <input type="radio" name="gender" value="f"/>여자
+        <input type="radio" name="gender" value="m"/>남자
+        <br/>
+        <br/>
+        <br/>
+
+        <button type="submit">전송</button>
+
+        숫자
+        <input type="number"/>
+        이메일
+        <input type="email"/>
+
+        <input type="range"/>
+
+        <input type="checkbox"/>
+        <input type="checkbox"/>
+        <input type="checkbox"/>
+        <input type="checkbox"/>
+
+        <input type="radio"/>
+        <input type="radio"/>
+        <input type="radio"/>
+        <input type="radio"/>
+        <br/>
+        <br/>
+        <br/>
+    </form>
+</html>
